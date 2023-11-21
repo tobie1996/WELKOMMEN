@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Gantari;
+}
+
+.logo{
+    margin-left: 40%;
+}
+.container {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    background: #F8FAFB;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 28px;
+}
+
+.informations{
+    display: block;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 80px;
+}
+
+
+
+.form_login{
+    width: 495px;
+    height: 610px;
+    margin: 40px;
+    left: 300px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: rgb(202, 198, 193);
+    display: block;
+}
+
+
+input{
+    width: 435px;
+    height: 52px;
+    top: 241px;
+    left: 698px;
+    border-radius: 5px;
+    border: 1px;
+    gap: 10px;
+    margin: 20px;
+    border: 1px solid rgb(143, 141, 141);
+    padding-left: 10px;
+
+}
+.input{
+    margin-top: 80px;
+}
+
+label {
+    margin-left: 20px;
+}
+.logo {
+    width: 77.04px;
+    height: 103.35px;
+    top: 57.67px;
+    left: 267px;
+}
+
+.text_container{
+    width: 474px;
+    height: 286px;
+    top: 282px;
+    left: 65px;
+
+}
+.text_container p {
+    margin-top: 30px;
+}
+
+button {
+    width:450px;
+    height: 52px;
+    padding: 15px, 201px, 15px, 201px;
+    border-radius: 5px;
+    gap: 10px;
+    margin: 23px;
+    background: #B6CB17;
+    border: none;
+    color: #F8FAFB;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 115, 0);
+}
+
+.form_login p{
+   text-align: center;
+   
+}
+
+
+.title_form{
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+.title_form h3{
+    margin-top: 30px;
+    text-align: center;
+}
