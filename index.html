@@ -33,26 +33,26 @@
         <div class="form_login">
 
             <div class="title_form">
-                <h3>Welcome back Senior</h3>
+                <img src="images/Arrow.svg" alt="cliquer">
+                <h3 id="message">Welcome back Senior</h3>
             </div>
-
             <div class="input">
 
             <label>E-Mail Adresse</label>
-            <input type="text" placeholder="Bitte geben Sie Ihre E-Mail Adresse hier ein!">
+            <input type="text" id="email" placeholder="Bitte geben Sie Ihre E-Mail Adresse hier ein!">
 
             <label>Password</label>
-            <input type="text" placeholder="Bitte geben Sie Ihre E-Mail Adresse hier ein!">
+            <input type="password" id="password" placeholder="**************************">
             </div>
             
             <p> Wenn Sie auf Anmelden klicken, stimmen Sie unseren  </p>
             <p><span style="color: #B6CB17;">Nutzungsbedingungen </span >sowie unserer <span style="color: #B6CB17;">Datenschutzrichtlinie</span> zu.</p>
-            <button>Login</button>
+            <button onclick={verifyInputs()} >Login</button>
             <p > Sie haben kein Konto? <span style="color: #B6CB17;">SignIn</span></p>
         </div>
         
         
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
