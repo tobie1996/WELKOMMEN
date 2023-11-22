@@ -1,0 +1,240 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Gantari;
+    background: #F8FAFB;
+
+}
+
+.logo{
+    top: -100px;
+    margin-left: 50%;
+}
+.container {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    background: #F8FAFB;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 28px;
+}
+
+.informations{
+    display: block;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+.form_register{
+    width: 495px;
+    height: 610px;
+    margin: 40px;
+    left: 300px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+    border-color: rgb(202, 198, 193);
+    display: block;
+    padding: 5px;
+   
+}
+
+#home_title{
+    font-size: 35px;
+    color: #428BCA;
+}
+input{
+    width: 435px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px;
+    gap: 10px;
+    margin: 20px;
+    border: 1px solid rgb(143, 141, 141);
+    padding-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    top: 30px;
+}
+.input{
+    margin-top: 80px;
+}
+.text_input{
+    margin-left: 45px;
+    margin-top: 20px;   
+    position: relative;
+    top: 40px;
+    text-align: center;
+
+}
+
+label {
+    margin-left: 18px;
+    position: relative;
+    top: 35px;
+}
+.logo {
+    width: 77.04px;
+    height: 103.35px;
+    top: 57.67px;
+    left: 267px;
+}
+
+.text_container{
+    width: 474px;
+    height: 286px;
+    top: 282px;
+    left: 65px;
+    color: #3C4448;
+    position: relative;
+    top: 100px;
+
+}
+.text_container p {
+    margin-top: 30px;
+}
+
+button {
+    width:450px;
+    height: 52px;
+    padding: 15px, 201px, 15px, 201px;
+    border-radius: 5px;
+    gap: 10px;
+    margin: 23px;
+    background: #B6CB17;
+    border: none;
+    color: #F8FAFB;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+button:hover{
+    background-color: rgb(255, 115, 0);
+}
+
+.form_login p{
+   text-align: center;
+   
+}
+#text_signIn{
+
+    margin-left: 130px;
+}
+
+.title_form{
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.title_form img{
+   margin-top: 10px;
+   margin-left: 10px;
+   height: 30px;
+}
+
+.title_form h3{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 480px){
+
+    .container {
+        display: block;
+        flex-direction: column;
+        width: 300px;
+        height: 100%;
+    }
+    .logo{
+        width: 77.04px;
+        height: 103.35px;
+        margin-left: 40%;
+    }
+
+    .text_container{
+
+        display: block;
+        text-align: center;
+    }
+
+    .title_form h3{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .informations{
+        margin-left: 48px;
+    }
+    
+    .form_register{
+       
+        width: 300px;
+        height: 610px;
+        border-radius: 10px;
+        background: rgb(255, 255, 255);
+        border: 1px solid;
+        border-color: rgb(202, 198, 193);
+        display: block;
+        margin-top: 120px;
+        margin-left: 48px;
+
+    }
+  
+
+   
+    input{
+
+        width: 250px;
+        height: 52px;
+        top: 241px;
+        left: 698px;
+        border-radius: 5px;
+        border: 1px;
+        gap: 10px;
+        margin: 20px;
+        border: 1px solid rgb(143, 141, 141);
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-left: 8px;
+    }
+
+    button {
+        width: 290px;
+        height: 52px;
+        padding: 15px, 201px, 15px, 201px;
+        border-radius: 5px;
+        gap: 10px;
+        background: #B6CB17;
+        border: none;
+        color: #F8FAFB;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+
+    .text_container{
+        width: 290px;
+        height: 400px;
+        top: 282px;
+        left: 65px;
+    
+    }
+    .text_container p {
+        margin-top: 30px;
+        
+    }
+    label {
+        margin-left: 18px;
+        margin-top: -10px;
+    }
+}
