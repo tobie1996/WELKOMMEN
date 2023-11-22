@@ -55,6 +55,7 @@ input{
     margin: 20px;
     border: 1px solid rgb(143, 141, 141);
     padding-left: 10px;
+    margin-top: 10px;
 
 }
 .input{
@@ -62,7 +63,8 @@ input{
 }
 
 label {
-    margin-left: 20px;
+    margin-left: 18px;
+    margin-top: -10px;
 }
 .logo {
     width: 77.04px;
@@ -126,97 +128,6 @@ button:hover{
 }
 
 
-/** RESPONSIVITE **/
-/*
-
-@media screen and (max-width: 768px){
-
-    .container {
-        display: block;
-        flex-direction: column;
-        width: 300px;
-        height: 100%;
-    }
-    .logo{
-        width: 77.04px;
-        height: 103.35px;
-        margin-left: 40%;
-    }
-
-    .text_container{
-
-        display: block;
-        text-align: center;
-    }
-
-    .title_form h3{
-        margin-left: 40px;
-        margin-top: 10px;
-    }
-    
-    .form_login{
-       
-        width: 300px;
-        height: 610px;
-        border-radius: 10px;
-        background: rgb(255, 255, 255);
-        border: 1px solid;
-        border-color: rgb(202, 198, 193);
-        display: block;
-        margin-top: 120px;
-        margin-right: 20px;
-
-    }
-  
-
-   
-    input{
-
-        width: 250px;
-        height: 52px;
-        top: 241px;
-        left: 698px;
-        border-radius: 5px;
-        border: 1px;
-        gap: 10px;
-        margin: 20px;
-        border: 1px solid rgb(143, 141, 141);
-        padding-left: 10px;
-        padding-right: 20px;
-        margin-left: 10px;
-    }
-
-    button {
-        width: 290px;
-        height: 52px;
-        padding: 15px, 201px, 15px, 201px;
-        border-radius: 5px;
-        gap: 10px;
-        margin: 15px;
-        background: #B6CB17;
-        border: none;
-        color: #F8FAFB;
-        font-size: 1rem;
-        cursor: pointer;
-        margin-left: 10px;
-    }
-
-    .text_container{
-        width: 290px;
-        height: 400px;
-        top: 282px;
-        left: 65px;
-    
-    }
-    .text_container p {
-        margin-top: 30px;
-    }
-}
-
-
-/***     pour de petites ecrans ***/
-
-
 @media screen and (max-width: 480px){
 
     .container {
@@ -241,6 +152,10 @@ button:hover{
         margin-left: 40px;
         margin-top: 10px;
     }
+
+    .informations{
+        margin-left: 48px;
+    }
     
     .form_login{
        
@@ -252,7 +167,7 @@ button:hover{
         border-color: rgb(202, 198, 193);
         display: block;
         margin-top: 120px;
-        margin-left: 30px;
+        margin-left: 48px;
 
     }
   
@@ -297,7 +212,64 @@ button:hover{
     
     }
     .text_container p {
-       margin-bottom: 10px;
-
+        margin-top: 30px;
+        
+    }
+    label {
+        margin-left: 18px;
+        margin-top: -10px;
     }
 }
+
+@media screen and (max-width: 390px){
+    .form_login{
+        margin-left: 37px;
+    }
+    label {
+        margin-left: 18px;
+        margin-top: -10px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 360px){
+    .form_login{
+        margin-left: 20px;
+    }
+    .informations{
+        margin-left: 25px;
+    }
+    label {
+        margin-left: 18px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .form_login{
+        margin-left: 40px;
+    }
+    .informations{
+        margin-left: 40px;
+    }
+    label {
+        margin-left: 18px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .form_login{
+        margin-left: 30px;
+    }
+    .informations{
+        margin-left: 40px;
+    }
+    label {
+        margin-left: 18px;
+        margin-top: -10px;
+    }
+}
+
