@@ -1,12 +1,15 @@
 
-var modal = document.querySelector(".loadModal");
-var btn = document.querySelector(".btn");
+let modal = document.querySelector(".loadModal");
+let btn = document.querySelector(".btn");
 
 btn.onclick = function() {
-   
   modal.style.display = "block";
-  
 }
 
+
+function EmailSend(){
+let input = document.querySelector("#email").value;
+
+}
 
 
