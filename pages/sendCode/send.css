@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #F8FAFB;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 532px;
+    margin: 120px 0;
+}
+
+.first-block img:first-child{
+    width: 192.12px;
+    height: 213px;
+}
+
+.first-block img:last-child{
+    width: 160px;
+    height: 53px;
+    position: relative;
+    top: 30px;
+    left: 9%;
+}
+
+
+.second-block {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 495px;
+    height: 500px;
+    box-shadow: 0px 4px 7px 0px rgba(181, 181, 181, 0.25);
+    position: relative;
+    top: 40px;
+
+}
+
+.carre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carre input {
+    width: 55px;
+    height: 57px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text :first-child {
+    color: var(--gray-gray-2, #B6BBC1);
+
+    /* Paragraph/Body Regular S */
+    font-family: Gantari;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text :last-child {
+    color: var(--black-bouton-semi-bold, #3C4448);
+    text-align: right;
+
+    /* BODY/Body Senior #Regular */
+    font-family: Gantari;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text span {
+    color: var(--black-bouton-semi-bold, #3C4448);
+
+    /* Paragraph/Body Regular S */
+    font-family: Gantari;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+h4 {
+    color: var(--Noir, #0A0500);
+    text-align: center;
+
+    /* H4 */
+    font-family: Gantari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    background: var(--senior-senior-1, #B6CB17);
+    display: flex;
+    width: 435px;
+    padding: 15px 201px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+    border: none;
+}
+
+.end {
+    color: var(--black-bouton-semi-bold, #3C4448);
+position: relative;
+top: 65px;
+    /* BODY/Title Input #Senior */
+    font-family: Gantari;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end1 {
+    color: var(--senior-senior-1, #B6CB17);
+position: relative;
+top: -15px;
+    /* BOUTONS/bouton */
+    font-family: Gantari;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.formulaire {
+    padding: 0 28px;
+    margin: -45px 0;
+}
+
+
+.formulaire:first-child {
+    color: var(--black-bouton-semi-bold, #3C4448);
+    text-align: center;
+
+    /* BODY/Title Input #Senior */
+    font-family: Gantari;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
