@@ -32,15 +32,14 @@ h1{
 
 .form_login{
     width: 495px;
-    height: 610px;
+    height: 580px;
     margin: 40px;
     left: 300px;
     border-radius: 10px;
     background: rgb(255, 255, 255);
     border: 1px solid;
     border-color: rgb(202, 198, 193);
-    display: block;
-    padding: 5px;
+    top:5px
 }
 
 
