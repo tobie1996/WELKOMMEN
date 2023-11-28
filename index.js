@@ -16,7 +16,7 @@ function verifyInputs() {
             if (!emailRegex.test(email)) {
                 document.getElementById("message").innerHTML = "L'email saisi n'est pas valide.";
             } else {
-                window.location.href ="./pages/signin/signin.html"
+                window.location.href ="./pages/signin/signin.html";
             }
         }
     })
