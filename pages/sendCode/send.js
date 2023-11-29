@@ -1,19 +1,44 @@
 
 const inputs = document.querySelectorAll('.textInput');
 const totalInputs = inputs.length;
+const values = [];
 
 inputs.forEach((input, index) => {
+
   input.addEventListener('input', () => {
     if (input.value !== '') {
-      // Vérifier si c'est le dernier input, dans ce cas revenir au premier
+      values[index] = input.value;
       if (index === totalInputs - 1) {
-        // Rediriger vers une autre page
-        window.location.href = 'https://google.com'; // Remplacez 'https://example.com' par l'URL de la page souhaitée
+        // Comparaison avec la valeur stockée dans le localStorage
+        let randomNumber = localStorage.getItem('randomNumber');
+        if (values.join('') === randomNumber) {
+          window.location.href = 'https://google.com';
+        } else {
+         alert("veillez enter le bon code!!")
+        }
       } else {
         inputs[index + 1].focus();
       }
     }
   });
+
 });
 
+
+
+/// au chargement de la page le lancement du chronometre 60 s
+
+let numberElement = document.getElementById("seconde");
+let seconde = 59 ;
+
+function decrementNumber() {
+    seconde--;
+    numberElement.innerText = seconde + "s";
+  
+    if (seconde === 0) {
+        alert("le code est erroné");
+        clearInterval(intervalId);
+    }
+}
+let intervalId = setInterval(decrementNumber, 1000);
 
