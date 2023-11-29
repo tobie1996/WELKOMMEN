@@ -19,25 +19,17 @@ body {
     margin: 120px 0;
 }
 
-.first-block img:first-child{
-    width: 192.12px;
-    height: 213px;
-}
-
-.first-block img:last-child{
-    width: 160px;
-    height: 53px;
-    position: relative;
-    top: 30px;
-    left: 9%;
+.first-block img{
+    width: 600px;
+    height: 300px;
 }
 
 
-.second-block {
+.Form_send {
     background-color: #FFFFFF;
     border-radius: 10px;
-    width: 495px;
-    height: 500px;
+    width: 500;
+    height: 600px;
     box-shadow: 0px 4px 7px 0px rgba(181, 181, 181, 0.25);
     position: relative;
     top: 40px;
@@ -95,6 +87,10 @@ body {
 }
 
 
+.input{
+    position: relative;
+    top: 30rem;
+}
 
 
 
@@ -115,20 +111,22 @@ h4 {
     color: white;
     background: var(--senior-senior-1, #B6CB17);
     display: flex;
-    width: 435px;
-    padding: 15px 201px;
+    width: 500px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     position: relative;
-    top: 50px;
+    top: 100px;
     border: none;
+    margin: auto;
+    font-size: 18px;
 }
 
 .end {
     color: var(--black-bouton-semi-bold, #3C4448);
-position: relative;
-top: 65px;
+    position: relative;
+    top: 130px;
     /* BODY/Title Input #Senior */
     font-family: Gantari;
     font-size: 18px;
@@ -155,14 +153,14 @@ top: -15px;
 }
 
 
-.formulaire:first-child {
+.formulaire{
     color: var(--black-bouton-semi-bold, #3C4448);
     text-align: center;
-
-    /* BODY/Title Input #Senior */
     font-family: Gantari;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: relative;
+    top: 40px;
 }
