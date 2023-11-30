@@ -51,26 +51,40 @@ h4 {
     left: 29px;
 }
 
-.email-input,
-.password-input {
+
+input {
     border-radius: 5px;
-    border: 1px solid var(--gray-stroke-input, #D9D9D9);
+    border: 1px solid var(--gray-stroke-input, #D9D9D9
+    );
     width: 435px;
     height: 52px;
     padding-left: 10px;
     appearance: none;
-    background: url("../../images/select.svg") no-repeat right center;
     background-size: 16px; 
     padding-right: 50px; 
     background-position-x: 25rem;
     background-position-y: center;
-    background-color: #E8E8E8;
     font-size: 18px;
-    color: #738188
-    ;
+    color: #738188;
+    margin-top: 10px;
+    margin-bottom: 20px;
    
-
 }
+
+h3{
+    position: relative;
+    left: 23px;
+    top: 5rem;
+}
+
+.arrow{
+    height: 3rem;
+    position: relative;
+    top: 3rem;
+    left: 10px;
+}
+
+
 
 
 .button {

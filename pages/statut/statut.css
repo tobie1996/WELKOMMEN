@@ -51,26 +51,72 @@ h4 {
     left: 29px;
 }
 
-.email-input,
-.password-input {
-    border-radius: 5px;
-    border: 1px solid var(--gray-stroke-input, #D9D9D9);
-    width: 435px;
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.street{
+width: 284px;
+height: 52px;
+top: 288px;
+left: 670px;
+padding: 17px, 24px, 17px, 15px;
+border-radius: 5px;
+border: solid 1px #738188;
+gap: 10px;
+}
+
+.numhause{
+    width: 121px;
     height: 52px;
-    padding-left: 10px;
-    appearance: none;
-    background: url("../../images/select.svg") no-repeat right center;
-    background-size: 16px; 
-    padding-right: 50px; 
-    background-position-x: 25rem;
-    background-position-y: center;
-    background-color: #E8E8E8;
-    font-size: 18px;
-    color: #738188
-    ;
-   
+    top: 264px;
+    left: 984px;
+    border-radius: 5px;
+    border: solid 1px #738188;
 
 }
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numportage{
+    width: 124px;
+    height: 52px;
+    top: 370px;
+    left: 670px;
+    border-radius: 5px;
+    border: solid 1px #738188;
+}
+
+.storn{
+    width: 281px;
+    height: 52px;
+    top: 370px;
+    left: 824px;
+    border-radius: 5px;
+    border: solid 1px #738188;
+}
+
+
+
+h3{
+    position: relative;
+    left: 23px;
+    top: 5rem;
+}
+
+.arrow{
+    height: 3rem;
+    position: relative;
+    top: 3rem;
+    left: 10px;
+}
+
+
 
 
 .button {
@@ -91,4 +137,6 @@ h4 {
 
 .formulaire {
     padding: 150px 28px;
+    
 }
+
