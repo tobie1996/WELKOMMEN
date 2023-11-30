@@ -73,6 +73,9 @@ label {
     top: 57.67px;
     left: 267px;
 }
+a{
+    text-decoration: none;
+}
 
 .text_container{
     width: 474px;
