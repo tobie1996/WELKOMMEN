@@ -121,6 +121,7 @@ h4 {
     border: none;
     margin: auto;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .end {

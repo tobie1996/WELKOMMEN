@@ -1,4 +1,10 @@
 
+
+function cancel(){
+    window.location.href = "../../index.html";
+
+}
+
 function verifyInputs() {
    let email = document.getElementById("email").value;
    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

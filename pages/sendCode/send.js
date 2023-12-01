@@ -24,6 +24,10 @@ inputs.forEach((input, index) => {
 
 });
 
+function valider(){
+  window.location.href = "../newpassword/password.html"
+}
+
 
 
 /// au chargement de la page le lancement du chronometre 60 s
